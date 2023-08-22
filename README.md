@@ -1,4 +1,5 @@
 # StairsLight
+
 Stair lighting control system with traveling wave effect
 
 Individual stairs lighting control system 
@@ -7,6 +8,7 @@ Designed for installation on stairs with several spans. At the beginning and end
 After the sensor is triggered, a traveling wave effect is created - turning on the lighting of each step in turn, moving away from you.
 
 ## Traveling wave algorithm
+
 When passing the first sensor (at the bottom or at the top of the stairs), a wave of activation of the corresponding flight begins in the direction of movement (up or down).
 If a person continues to stand at the beginning of the stairs, the already lit flight continues to burn
 If a person passes by the sensor - after a specified time (10 seconds by default), the steps start to turn off in the same direction as they were turned on before. Thus, after passing the sensor, in any case, there will be at least 10 seconds to pass the illuminated stairs.
@@ -16,17 +18,17 @@ If both flights had time to go out and the upper sensor triggered, it is assumed
 If a person is opposite the middle sensor, and both flights go out, it is not clear where he came from. So begins the simultaneous wave of the first flight from top to bottom and the second flight bottom to top.
 
 ## System operation example
-(Top sensor triggered)[https://github.com/Brabn/StairsLight/blob/main/Photo/Top%20sensor%20triggered.3gp]
+[Top sensor triggered](https://github.com/Brabn/StairsLight/blob/main/Photo/Top%20sensor%20triggered.3gp)
 
-(Bottom sensor triggered )[https://github.com/Brabn/StairsLight/blob/main/Photo/Bottom%20than%20middle%20sensor%20triggered.3gp]
+[Bottom sensor triggered](https://github.com/Brabn/StairsLight/blob/main/Photo/Bottom%20than%20middle%20sensor%20triggered.3gp)
 
-(Top than middle sensors triggered )[https://github.com/Brabn/StairsLight/blob/main/Photo/Top%20than%20middle%20sensor%20triggered.3gp]
+[Top than middle sensors triggered](https://github.com/Brabn/StairsLight/blob/main/Photo/Top%20than%20middle%20sensor%20triggered.3gp)
 
-(Bottom than middle sensors triggered )[https://github.com/Brabn/StairsLight/blob/main/Photo/Bottom%20than%20middle%20sensor%20triggered.3gp]
-
+[Bottom than middle sensors triggered](https://github.com/Brabn/StairsLight/blob/main/Photo/Bottom%20than%20middle%20sensor%20triggered.3gp)
 
 
 ## Main system parameters:
+
 * The maximum load switched by each relay channel:
   - for alternating current –  10A 250VAC
   - for direct current –       10A, 30VDC
@@ -41,7 +43,8 @@ If a person is opposite the middle sensor, and both flights go out, it is not cl
   - Precision – 0.3 cm
  
 ## Wiring diagram
-!(Stairs Ligts wiring diagram)[https://github.com/Brabn/StairsLight/blob/main/Wiring_diagram/StairsLights.Wiring_diagram.jpg]
+
+![Stairs Ligts wiring diagram](https://github.com/Brabn/StairsLight/blob/main/Wiring_diagram/StairsLights.Wiring_diagram.jpg)
 
 
 ## Components:
