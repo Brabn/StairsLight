@@ -1,6 +1,6 @@
 # StairsLight
 
-Stair lighting control system with traveling wave effect
+[Stair lighting control system](https://techi-news.com/Projects/Stair-lighting-with-traveling-wave-effect) with "traveling wave" effect
 
 Individual stairs lighting control system 
 Stair lighting control system with traveling wave effect.
